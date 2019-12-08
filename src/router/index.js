@@ -9,6 +9,17 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home,
+    meta: {
+      title: 'Pas évident.be - Accueil',
+    },
+  },
+  {
+    path: '/:id',
+    name: 'sentence',
+    meta: {
+      title: 'Pas évident.be',
+    },
+    component: () => import(/* webpackChunkName: "sentence" */ '../views/Sentence.vue'),
   },
   {
     path: '/about',
@@ -24,6 +35,11 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title;
+  next();
 });
 
 export default router;
