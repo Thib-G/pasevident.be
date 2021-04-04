@@ -54,7 +54,7 @@ export default {
       return +this.$route.params.id;
     },
     sentence() {
-      return this.sentences.find(x => x.id === this.id);
+      return this.sentences.find((x) => x.id === this.id);
     },
     prev() {
       // https://stackoverflow.com/questions/3803331/how-can-i-modulo-when-my-numbers-start-from-1-not-zero
