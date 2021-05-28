@@ -52,4 +52,5 @@ export default [
   { id: 46, html: '&mdash;&#8239;Tu vas bien aujourd’hui&#8239;?<br>&mdash;&#8239;Je n’irais pas jusque là&#8230;' },
   { id: 47, html: 'Dont acte.' },
   { id: 48, html: `Ça va? Comme un ${day} de confinement.` },
+  { id: 49, html: 'On sait faire un export Excel de ton application&#8239;?' },
 ];
