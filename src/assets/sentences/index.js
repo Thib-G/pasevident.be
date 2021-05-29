@@ -53,4 +53,6 @@ export default [
   { id: 47, html: 'Dont acte.' },
   { id: 48, html: `Ça va? Comme un ${day} de confinement.` },
   { id: 49, html: 'On sait faire un export Excel de ton application&#8239;?' },
+  { id: 50, html: 'Plus on avance, plus on recule.' },
+  { id: 51, html: 'C’est pas ça qui fera arriver<br>les trains à l’heure...' },
 ];
