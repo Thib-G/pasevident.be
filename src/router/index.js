@@ -19,7 +19,7 @@ const routes = [
     meta: {
       title: 'Pas évident.be',
     },
-    component: () => import(/* webpackChunkName: "sentence" */ '../views/SentenceView.vue'),
+    component: () => import(/* webpackChunkName: "sentence-view" */ '../views/SentenceView.vue'),
   },
 ];
 

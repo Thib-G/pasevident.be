@@ -74,13 +74,13 @@ export default {
     prev() {
       // https://stackoverflow.com/questions/3803331/how-can-i-modulo-when-my-numbers-start-from-1-not-zero
       return {
-        name: 'sentence',
+        name: 'SentenceView',
         params: { id: ((this.id - 1 - 1 + this.sentences.length) % this.sentences.length) + 1 },
       };
     },
     next() {
       return {
-        name: 'sentence',
+        name: 'SentenceView',
         params: { id: ((this.id + 1 - 1 + this.sentences.length) % this.sentences.length) + 1 },
       };
     },
