@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <SentencesComponent :sentences="sentences"/>
+    <SentencesComponent :sentences="sentences" />
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import sentences from '@/assets/sentences';
 import SentencesComponent from '@/components/SentencesComponent.vue';
 
 export default {
-  name: 'home',
+  name: 'HomeView',
   data() {
     return {
       sentences,

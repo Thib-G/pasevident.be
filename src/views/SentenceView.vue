@@ -1,15 +1,30 @@
 <template>
   <div>
-    <blockquote ref="quote" v-html="sentence.html">
-    </blockquote>
+    <blockquote
+      ref="quote"
+      v-html="sentence.html"
+    />
     <div class="player">
       <span class="sep">
         <router-link :to="prev"><i class="fa fa-step-backward" /></router-link>
       </span>
       <span class="sep">
-        <a href @click.prevent="togglePlay">
-          <i class="fa fa-stop" v-if="appService.playing"></i>
-          <i class="fa fa-play" v-else></i>
+        <a
+          href
+          @click.prevent="togglePlay"
+          @keydown.prevent="togglePlay"
+          aria-label="Play/Stop playback"
+        >
+          <i
+            class="fa fa-stop"
+            v-if="appService.playing"
+            aria-hidden="true"
+          />
+          <i
+            class="fa fa-play"
+            v-else
+            aria-hidden="true"
+          />
         </a>
       </span>
       <span class="sep">
