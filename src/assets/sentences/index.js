@@ -57,4 +57,6 @@ export default [
   { id: 51, html: 'C’est pas ça qui fera arriver<br>les trains à l’heure&#8230;' },
   { id: 52, html: 'Nous autres on fait plus qu’encoder des trucs dans leur système pour qu’ils fassent leurs statistiques là-haut.' },
   { id: 53, html: 'T’as déjà été voir à combien t’as droit sur MyPension&#8239;?' },
+  { id: 54, html: 'C’est un héritage du passé!' },
+  { id: 55, html: 'Toi tu cours plus vite pour partir que pour arriver!' },
 ];
