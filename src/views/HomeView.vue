@@ -1,6 +1,14 @@
 <template>
   <div class="home">
     <SentencesComponent :sentences="sentences" />
+    <p>
+      &copy;&nbsp;Thibaut Goelff et tous les gens qui m’ont suggéré des phrases.
+      <br>
+      <a href="https://github.com/Thib-G/pasevident.be"><i
+        class="fa fa-github"
+        aria-hidden="true"
+      />&nbsp;Source</a>
+    </p>
   </div>
 </template>
 
