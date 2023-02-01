@@ -64,4 +64,5 @@ export default [
   { id: 58, html: 'L’argent ça ne pousse pas aux arbres malheureusement.' },
   { id: 59, html: 'Demander&#8239;?<br>On peut toujours demander&#8239;!' },
   { id: 60, html: 'C’est pas notre politique&#8239;!<br>(Suggéré par ChatGPT)' },
+  { id: 61, html: 'J’suis statutaire,<br> on peut rien me faire&#8239;!' },
 ];
