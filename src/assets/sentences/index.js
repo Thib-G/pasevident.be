@@ -6,7 +6,7 @@ const day = days[dayOfWeek];
 export default [
   { id: 1, html: 'C’est pas évident.' },
   { id: 2, html: 'On a toujours fait comme ça.' },
-  { id: 3, html: `Ça va? Comme un ${day}.` },
+  { id: 3, html: `Ça va&#8239;? Comme un ${day}.` },
   { id: 4, html: 'Une de moins avant la retraite.' },
   { id: 5, html: 'On n’est pas aidés.' },
   { id: 6, html: 'C’est pas à mon âge<br>que je vais commencer.' },
