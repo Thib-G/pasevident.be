@@ -51,7 +51,7 @@ export default [
   { id: 45, html: '&mdash;&#8239;J’ai une petite question pour toi.<br>&mdash;&#8239;Une petite réponse alors.' },
   { id: 46, html: '&mdash;&#8239;Tu vas bien aujourd’hui&#8239;?<br>&mdash;&#8239;Je n’irais pas jusque là&#8230;' },
   { id: 47, html: 'Dont acte.' },
-  { id: 48, html: `Ça va? Comme un ${day} de confinement.` },
+  { id: 48, html: `Ça va&#8239;? Comme un ${day} de confinement.` },
   { id: 49, html: 'On sait faire un export Excel de ton application&#8239;?' },
   { id: 50, html: 'Plus on avance, plus on recule.' },
   { id: 51, html: 'C’est pas ça qui fera arriver<br>les trains à l’heure&#8230;' },
