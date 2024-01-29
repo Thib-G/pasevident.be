@@ -46,7 +46,7 @@ export default {
       timeout: null,
     };
   },
-  beforeDestroy() {
+  beforeUnmount() {
     this.appService.playing = false;
     clearTimeout(this.timeout);
   },
