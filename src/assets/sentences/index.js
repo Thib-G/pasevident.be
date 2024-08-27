@@ -68,4 +68,5 @@ export default [
   { id: 62, html: 'On a beau être génial,<br> on peut pas penser à tout&#8239;!' },
   { id: 63, html: 'Ça va&#8239;?<br>Mieux que le temps&#8239;!' },
   { id: 64, html: 'Là où le chemin de fer commence, la logique s’arrête.' },
+  { id: 65, html: 'C&#8239;est dangereux.' },
 ];
