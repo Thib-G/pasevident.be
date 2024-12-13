@@ -69,4 +69,5 @@ export default [
   { id: 63, html: 'Ça va&#8239;?<br>Mieux que le temps&#8239;!' },
   { id: 64, html: 'Là où le chemin de fer commence, la logique s’arrête.' },
   { id: 65, html: 'C’est dangereux.' },
+  { id: 66, html: 'Je n’ai plus de congé. Pas grave je vais prendre un MIOF<sup>*</sup>!<br><small><sup>*</sup>Motif Impérieux d’Ordre Familial.' },
 ];
