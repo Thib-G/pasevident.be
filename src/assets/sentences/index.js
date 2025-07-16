@@ -70,4 +70,7 @@ export default [
   { id: 64, html: 'Là où le chemin de fer commence, la logique s’arrête.' },
   { id: 65, html: 'C’est dangereux.'},
   { id: 66, html: 'Je n’ai plus de congé. Pas grave je vais prendre un MIOF<sup>*</sup>!<br><small><sup>*</sup>Motif Impérieux d’Ordre Familial.'},
+  { id: 67, html: 'C’est écrit où&#8239;?' },
+  { id: 68, html: 'Désolé, pas possible&#8239;!<br>Safety first&#8239;!' },
+  { id: 69, html: 'Si c’est pas compliqué, ça peut pas être juste&#8239;!' },
 ];
