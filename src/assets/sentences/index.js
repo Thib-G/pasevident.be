@@ -73,4 +73,5 @@ export default [
   { id: 67, html: 'C’est écrit où&#8239;?' },
   { id: 68, html: 'Désolé, pas possible&#8239;!<br>Safety first&#8239;!' },
   { id: 69, html: 'Si c’est pas compliqué, ça peut pas être juste&#8239;!' },
+  { id: 70, html: 'Désolé, on doit stopper le projet car ce n’est pas conforme avec le RGPD.' },
 ];
