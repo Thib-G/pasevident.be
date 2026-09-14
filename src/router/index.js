@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
+import SentenceView from '../views/SentenceView.vue';
 
 const routes = [
   {
@@ -16,7 +17,7 @@ const routes = [
     meta: {
       title: 'Pas évident.be',
     },
-    component: () => import(/* webpackChunkName: "sentence-view" */ '../views/SentenceView.vue'),
+    component: SentenceView,
   },
 ];
 
